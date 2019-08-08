@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../common/fonts1/iconfont.css">
+    <link rel="stylesheet" href="../style/uploading/uploading.css">
+    <link rel="stylesheet" href="../common/reset2.css">
+</head>
+
+<body>
+    <div class="index-container">
+        <nav>
+            <div class="header">
+                <span>产品管理员</span>
+                <ul>
+                    <li>
+                        <span class="iconfont icon-shizhong1"></span>
+                        <span>仪表板</span>
+                    </li>
+                    <li>
+                        <span class="iconfont icon-wodedingdan"></span>
+                        <span>报告
+                            <i class="iconfont icon-angle-down"></i>
+                        </span>
+                    </li>
+                    <li>
+                        <span class="iconfont icon-gouwuche-xuanzhong"></span>
+                        <span>制品</span>
+                    </li>
+                    <li>
+                        <span class="iconfont icon-gerenxinxi"></span>
+                        <span>账号</span>
+                    </li>
+                    <li>
+                        <span class="iconfont icon-set"></span>
+                        <span>设置</span>
+                    </li>
+                </ul>
+                <div class="header-rigth">
+                    <span>管理员，退出</span>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="products">
+        <div class="box">
+            <div class="header">
+                <h3>添加产品</h3>
+            </div>
+            <div class="section">
+                <div class="section-left">
+                    <div class="pro">
+                        <label>产品名称</label>
+                        <input type="text"id="product">
+                    </div>
+                    <div class="note">
+                        <label>描述</label>
+                        <textarea name="" id="weee" cols="30" rows="10"></textarea>
+                    </div>
+                    <div class="list">
+                        <label for="">类别</label>
+                        <select name="" id="kind">
+                            <option value="">选择类别</option>
+                            <option value="">选择类别</option>
+                            <option value="">选择类别</option>
+                            <option value="">选择类别</option>
+                        </select>
+                    </div>
+                    <div class="title">
+                        <div class="date">
+                            <label>到期日期</label>
+                            <input type="text"id="date">
+                        </div>
+                        <div class="unit">
+                            <label>库存中的单位</label>
+                            <input type="text"id="unit">
+                        </div>
+                    </div>
+                </div>
+                <div class="section-right">
+                    <div class="section-right-img">
+                        <i class="iconfont icon-01"></i>
+                        <img src="../images/c.jpg" alt=""id="imag">
+                    </div>
+                    <div class="section-right-note">
+                        <button>上传产品图片<input type="file" id="gogo"style="opacity:0"></button>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <h3 id="addproduct">立即添加产品</h3>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="../js/common/ajax.js"></script>
+<script src="../js/uploading/uploading.js"></script>
+</html>
